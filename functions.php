@@ -61,12 +61,12 @@ function learning_to_research_register_required_plugins() {
 			'slug'		=> 'p2-likes',
 			'required'	=> true,
 		),
-/*		array(
-			'name'		=> '',
-			'slug'		=> '',
+		array(
+			'name'		=> 'Image Widget',
+			'slug'		=> 'image-widget',
 			'required'	=> true,
 		),
-*/
+
 
 	);
 
