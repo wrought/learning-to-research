@@ -1,0 +1,15 @@
+/*
+Theme Name:     Learning to Research
+Theme URI:      http://github.com/wrought/learning-to-research
+Description:    Child theme for P2 that incorporates various plugins automatically to facilitate educators who teach students to learn how to do research, especially collaborating with practicing researchers, subject matter experts, etc.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Author:         Mattsenate
+Author URI:     http://existenceproof.net/
+Template:       p2
+Version:        0.1.0
+*/
+
+/* Parent theme P2 */
+@import url("../p2/style.css");
+
