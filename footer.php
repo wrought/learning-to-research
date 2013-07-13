@@ -12,7 +12,9 @@
 <div id="footer">
 	<p>
 		<?php echo prologue_poweredby_link(); ?>
-	    <?php printf( __( 'Theme: %1$s by %2$s.', 'p2' ), 'P2', '<a href="http://automattic.com/" rel="designer">Automattic</a>' ); ?>
+		<?php printf('Theme: <a href="http://github.com/wrought/learning-to-research">Learning to Research</a>, based on'); ?>
+	    <?php printf( __( ' %1$s by %2$s', 'p2' ), 'P2', '<a href="http://automattic.com/" rel="designer">Automattic</a>' ); ?>
+		<?php printf(' and <a href="https://github.com/nmec/p2-responsive">P2 Responsive</a>.'); ?>
 	</p>
 </div>
 
