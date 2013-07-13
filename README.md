@@ -1,8 +1,8 @@
 # Learning to Research Theme
 
-A WordPress child theme based on P2 for sharing the experiences and notes of students 
-participating in open-ended learning through collaboration with people outside the 
-class--such as researchers or scientists. 
+A WordPress child theme based on P2 and P2 Responsive for sharing the experiences and 
+notes of students participating in open-ended learning through collaboration with people 
+outside the classroom--such as researchers or scientists. 
 
 ## Installation
 
@@ -18,6 +18,7 @@ Follow basic procedure:
 * Re-style
 * Add logo/header
 * Customize templates
+* Auto-configure p2-by-email http://wordpress.org/plugins/p2-by-email/installation/
 
 ## Changelog
 
