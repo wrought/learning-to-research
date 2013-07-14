@@ -13,6 +13,14 @@ Version:        0.1.0
 /* Parent theme P2 */
 @import url("../p2/style.css");
 
+/* CC license styles */
+
+p.cc-block img.cc-button {
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
 /* max-width on html, excessive width causing rendering issues */
 html {
 	max-width: 1171px;
