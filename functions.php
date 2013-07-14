@@ -49,24 +49,28 @@ function learning_to_research_register_required_plugins() {
 		array(
 			'name'		=> 'MathJax-LaTeX',
 			'slug'		=> 'mathjax-latex',
-			'required'	=> true,
+			'required'	=> false,
 		),
 		array(
 			'name'		=> 'P2 By Email',
 			'slug'		=> 'p2-by-email',
-			'required'	=> true,
+			'required'	=> false,
 		),
 		array(
 			'name'		=> 'P2 Likes',
 			'slug'		=> 'p2-likes',
-			'required'	=> true,
+			'required'	=> false,
 		),
 		array(
 			'name'		=> 'Image Widget',
 			'slug'		=> 'image-widget',
 			'required'	=> true,
 		),
-
+		array(
+			'name'		=> 'Configure SMTP',
+			'slug'		=> 'configure-smtp',
+			'required'	=> true,
+		),
 
 	);
 
