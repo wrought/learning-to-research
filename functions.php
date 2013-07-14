@@ -71,6 +71,12 @@ function learning_to_research_register_required_plugins() {
 			'slug'		=> 'configure-smtp',
 			'required'	=> true,
 		),
+		array(
+			'name'		=> 'SI CAPTCHA Anti-Spam',
+			'slug'		=> 'si-captcha-for-wordpress',
+			'required'	=> false,
+		),
+
 
 	);
 
