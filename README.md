@@ -19,6 +19,8 @@ Follow basic procedure:
 * Add logo/header
 * Customize templates
 * Auto-configure p2-by-email http://wordpress.org/plugins/p2-by-email/installation/
+* Add document management, document sharing, document versioning?
+* Consider LMS plugin options
 
 ## Changelog
 
