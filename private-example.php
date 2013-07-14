@@ -15,8 +15,17 @@
  *
  */
 
-$p2be_details['host'] = '{imap.gmail.com:993/imap/ssl/novalidate-cert}';
-$p2be_details['username'] = 'USERNAME@gmail.com';
-$p2be_details['password'] = 'PASSWORD';
+add_filter( 'p2be_email_replies_enabled', '__return_true' );
+add_filter( 'p2be_emails_reply_to_email', function( $email ) {
+    return 'YOURACCOUNT@gmail.com';
+});
+add_filter( 'p2be_imap_connection_details', function( $details ) {
+
+    $details['host'] = '{imap.gmail.com:993/imap/ssl/novalidate-cert}';
+    $details['username'] = 'YOURACCOUNT@gmail.com';
+    $details['password'] = 'PASSWORD';
+
+    return $details;
+} );
 
 ?>

@@ -212,19 +212,6 @@ function p2_responsive_comments( $comment, $args ) {
  * 
  */
 
-require_once dirname( __FILE__ ) . '/private.php';
-
-add_filter( 'p2be_email_replies_enabled', '__return_true' );
-add_filter( 'p2be_emails_reply_to_email', function( $email ) {
-    return $p2be_details['username'] ;
-});
-add_filter( 'p2be_imap_connection_details', function( $details ) {
-
-    $details['host'] = $p2be_details['host'];
-    $details['username'] = $p2be_details['username'];
-    $details['password'] = $p2be_details['password'];
-
-    return $p2be_details;
-} );
+require_once( dirname( __FILE__ ) . '/private.php');
 
 ?>
