@@ -201,4 +201,30 @@ function p2_responsive_comments( $comment, $args ) {
 	<?php
 }
 
+/**
+ * P2 by Email plugin (p2be)
+ *
+ * Instructions:
+ * 1. Register a Gmail or similar email account that supports IMAP.
+ * 2. Add the code snippet below with account details to your theme's functions.php file.
+ *    It tells P2 By Email that you're set up to use post or reply by email.
+ * 3. Install wp-cli and set up a system cron job to regularly call wp p2-by-email ingest-emails.
+ * 
+ */
+
+require_once dirname( __FILE__ ) . '/private.php';
+
+add_filter( 'p2be_email_replies_enabled', '__return_true' );
+add_filter( 'p2be_emails_reply_to_email', function( $email ) {
+    return $p2be_details['username'] ;
+});
+add_filter( 'p2be_imap_connection_details', function( $details ) {
+
+    $details['host'] = $p2be_details['host'];
+    $details['username'] = $p2be_details['username'];
+    $details['password'] = $p2be_details['password'];
+
+    return $p2be_details;
+} );
+
 ?>
